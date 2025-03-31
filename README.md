@@ -35,11 +35,14 @@ Các tham số trong lúc train mình dùng như sau:
 - Optimizer Adam với learning_rate 1e-4
 - batch_size là 8
 - episodes: 130 (mô hình hội tụ khi dùng kèm EarlyStopping)
+
 Chi tiết các bạn có thể tham khảo trong code của mình.
 
 # Result
-Đây là ![Result](images/val_loss.png)
-biểu đồ loss tập validation của mình khi train trên [Kaggle kernel](https://www.kaggle.com/code/quntrnhongng/vnhandwritten-ocr). 
+Đây là biểu đồ loss tập validation của mình khi train trên [Kaggle kernel](https://www.kaggle.com/code/quntrnhongng/vnhandwritten-ocr).
+
+![Result](images/val_loss.png)
+
 
 # References
 - [Beam Search Decoding in CTC-trained Neural Networks](https://medium.com/towards-data-science/beam-search-decoding-in-ctc-trained-neural-networks-5a889a3d85a7)
