@@ -1,0 +1,32 @@
+# Kaggle dataset (tránh upload dữ liệu nặng)
+vn_handwritten_images/
+
+# Model weights
+VNHandWritten_OCR/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Logs & outputs
+wandb/
+*.log
+*.out
+*.err
+
+# IDE & Editor files
+.vscode/
+*.swp
+*.swo
+.DS_Store
